@@ -1,14 +1,14 @@
-# Readme generator
+# README generator
 
 
 ## Description
-undefined
+generates a README file based on the user input
 
 ## Installation
-undefined
+install node and use command line
 
 ## Contribution 
-undefined
+on Github
 
 ## Tests
-undefined
+command line
