@@ -1,17 +1,27 @@
-# README generator [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]
+# README generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Table of contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
-Generates README files based on user input
+An app that creates a professional README file for your project
 
 ## Installation
-install node and run node index.mjs
+install node js and run 'node index.mjs' in the console
 
 ## Usage
-use it to generate a professional README file quickly
+Answer the questions to get your professional looking README file
 
 ## Contribution 
-on github
+github pull requests
 
 ## Tests
-command line
+using command line created this README file
+
+## Questions

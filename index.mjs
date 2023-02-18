@@ -51,11 +51,11 @@ let readmeText = `# ${title} ${generateLicense()}
 ## Table of contents
 
 - [Description](#description)
-- [](#description)
-- [Description](#description)
-- [Description](#description)
-- [Description](#description)
-- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 ${description}
@@ -70,7 +70,11 @@ ${usage}
 ${contribution}
 
 ## Tests
-${tests}`
+${tests}
+
+##Questions
+`
+
 
 
 
