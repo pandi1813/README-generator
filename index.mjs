@@ -66,6 +66,9 @@ ${installation}
 ## Usage
 ${usage}
 
+## LIcense
+This project is licensed under the terms of the ${license} license.
+
 ## Contribution 
 ${contribution}
 
