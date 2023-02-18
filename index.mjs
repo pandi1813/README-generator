@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import fs from 'fs/promises';
 
-let {title,license, description, installation, usage, contribution, tests} = await inquirer
+let {title,license, description, installation, usage, contribution, tests, github, email} = await inquirer
   .prompt([
     /* Pass your questions in here */
     {
@@ -42,6 +42,16 @@ let {title,license, description, installation, usage, contribution, tests} = awa
         name: 'tests',
         message: "What tests have been run?",
       },
+      {
+        type: 'input',
+        name: 'github',
+        message: "What is your Github username?",
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: "What is your email address?",
+      },
   ])
 
   console.log(title, description)
@@ -76,6 +86,9 @@ ${contribution}
 ${tests}
 
 ##Questions
+For more information check out my Github: [${github}](https://github.com/${github})
+For any questions email: 
+
 `
 
 
