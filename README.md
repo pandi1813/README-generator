@@ -1,4 +1,4 @@
-# README generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# readme [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
 
@@ -10,18 +10,24 @@
 - [Questions](#questions)
 
 ## Description
-An app that creates a professional README file for your project
+readme
 
 ## Installation
-install node js and run 'node index.mjs' in the console
+readme
 
 ## Usage
-Answer the questions to get your professional looking README file
+readme
+
+## LIcense
+This project is licensed under the terms of the MIT license.
 
 ## Contribution 
-github pull requests
+readme
 
 ## Tests
-using command line created this README file
+readme
 
 ## Questions
+- For more information check out my Github: [pandi1813](https://github.com/pandi1813)
+- For any questions email: [peter.andi1813@gmail.com](mailto:peter.andi1813@gmail.com)
+

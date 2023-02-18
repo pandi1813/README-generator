@@ -85,9 +85,9 @@ ${contribution}
 ## Tests
 ${tests}
 
-##Questions
-For more information check out my Github: [${github}](https://github.com/${github})
-For any questions email: 
+## Questions
+- For more information check out my Github: [${github}](https://github.com/${github})
+- For any questions email: [${email}](mailto:${email})
 
 `
 
