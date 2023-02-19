@@ -8,6 +8,9 @@ let {title,license, description, installation, usage, contribution, tests, githu
         type: 'input',
         name: 'title',
         message: "What's your project title?",
+        default() {
+          return 'README generator';
+        },
       },
       {
         type: 'list',
@@ -22,35 +25,56 @@ let {title,license, description, installation, usage, contribution, tests, githu
         type: 'input',
         name: 'description',
         message: "How would you describe the project?",
+        default() {
+          return 'A command line app that that asks you a set of questions and generates a README file based on your answers';
+        },
       },
       {
         type: 'input',
         name: 'installation',
         message: "How do you install the project?",
+        default() {
+          return 'You need to download node.js, then open your terminal and run "npm install" to get the app working. After that just use the "node index.mjs" command to start using the app';
+        },
       }, {
         type: 'input',
         name: 'usage',
         message: "How is your project meant to be used?",
+        default() {
+          return 'Once started it will ask you a set of questions about your project. Simply answer them to generate your professional README file.';
+        },
       },
       {
         type: 'input',
         name: 'contribution',
         message: "How can someone contribute to the project?",
+        default() {
+          return 'Check out the Issues if you would like to contribute';
+        },
       },
       {
         type: 'input',
         name: 'tests',
         message: "What tests have been run?",
+        default() {
+          return 'Used the app to create this sample README file';
+        },
       },
       {
         type: 'input',
         name: 'github',
         message: "What is your Github username?",
+        default() {
+          return 'pandi1813';
+        },
       },
       {
         type: 'input',
         name: 'email',
         message: "What is your email address?",
+        default() {
+          return 'peter.andi1813@gmail.com';
+        },
       },
   ])
 
