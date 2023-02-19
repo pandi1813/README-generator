@@ -1,10 +1,11 @@
-# README generator [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]
+# README generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -18,8 +19,8 @@ You need to download node.js, then open your terminal and run "npm install" to g
 ## Usage
 Once started it will ask you a set of questions about your project. Simply answer them to generate your professional README file.
 
-## LIcense
-This project is licensed under the terms of the Boost license.
+## License
+This project is licensed under the terms of the MIT license.
 
 ## Contribution 
 Check out the Issues if you would like to contribute

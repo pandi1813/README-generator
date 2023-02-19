@@ -1,9 +1,10 @@
 import inquirer from 'inquirer';
 import fs from 'fs/promises';
 
+
+// ************* PROMPTS ****************
 let {title,license, description, installation, usage, contribution, tests, github, email} = await inquirer
   .prompt([
-    /* Pass your questions in here */
     {
         type: 'input',
         name: 'title',
@@ -17,9 +18,7 @@ let {title,license, description, installation, usage, contribution, tests, githu
         name: 'license',
         message: 'Select a product license',
         choices: ['MIT', 'IBM', 'Boost'],
-        // filter(val) {
-        //   return val.toLowerCase();
-        // },
+      
       },
       {
         type: 'input',
@@ -78,7 +77,10 @@ let {title,license, description, installation, usage, contribution, tests, githu
       },
   ])
 
-  console.log(title, description)
+  
+
+
+//  **************** README TEXT **************************
 
 let readmeText = `# ${title} ${generateLicense()}
 
@@ -87,6 +89,7 @@ let readmeText = `# ${title} ${generateLicense()}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -100,7 +103,7 @@ ${installation}
 ## Usage
 ${usage}
 
-## LIcense
+## License
 This project is licensed under the terms of the ${license} license.
 
 ## Contribution 
@@ -116,8 +119,7 @@ ${tests}
 `
 
 
-
-
+// Function to add license badge based on user selection 
 function generateLicense() {
     if (license === "MIT") {
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
@@ -129,8 +131,7 @@ function generateLicense() {
 
 }
 
-console.log(license)
-
-fs.writeFile("README.md", readmeText )
+// create README file with 'readmeText' as text content
+fs.writeFile("README-sample.md", readmeText )
 
 
