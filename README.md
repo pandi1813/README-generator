@@ -1,5 +1,8 @@
 # Command line README generator app
- Video demo available [here](https://pandi1813.github.io/Weather-Dashboard/)
+ Video demo available [here](https://drive.google.com/file/d/1MXX_b3gWxeL2ZBqB9ItiQRqYoZQV5vQj/view)
+
+ I used default values as the answers for demo purposes
+  
 ## Table of contents
 
 - [Overview](#overview)

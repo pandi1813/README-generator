@@ -1,4 +1,4 @@
-# README generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README generator [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ You need to download node.js, then open your terminal and run "npm install" to g
 Once started it will ask you a set of questions about your project. Simply answer them to generate your professional README file.
 
 ## License
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the IBM license.
 
 ## Contribution 
 Check out the Issues if you would like to contribute
